@@ -13,5 +13,6 @@
     <ClInclude Include="src\route_model.h" />
     <ClInclude Include="src\render.h" />
     <ClInclude Include="src\route_planner.h" />
+    <ClInclude Include="src\input_handler.h" />
   </ItemGroup>
 </Project>
