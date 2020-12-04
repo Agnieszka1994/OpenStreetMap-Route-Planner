@@ -11,6 +11,7 @@
 #include "route_model.h"
 #include "render.h"
 #include "route_planner.h"
+#include "input_handler.h"
 
 using namespace std::experimental;
 
@@ -81,15 +82,7 @@ int main(int argc, const char** argv)
 	}
 
 	/* Read user input */
-	float start_x, start_y, end_x, end_y;
-	std::cout << "Enter start x btw. 0 - 99: ";
-	std::cin >> start_x;
-	std::cout << "Enter start y btw. 0 - 99: ";
-	std::cin >> start_y;
-	std::cout << "Enter end x btw. 0 - 99: ";
-	std::cin >> end_x;
-	std::cout << "Enter end y btw. 0 - 99: ";
-	std::cin >> end_y;
+	auto [start_x, start_y, end_x, end_y] = getCoordinatesFromInput<float>();
 
 	/* Build our route model with osm_data */
 	RouteModel model{ osm_data };
