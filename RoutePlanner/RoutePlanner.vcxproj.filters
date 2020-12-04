@@ -2,8 +2,17 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\model.cpp" />
+    <ClCompile Include="src\render.cpp" />
+    <ClCompile Include="src\route_model.cpp" />
+    <ClCompile Include="src\route_planner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Astar.h" />
+    <ClInclude Include="src\model.h" />
+    <ClInclude Include="src\route_model.h" />
+    <ClInclude Include="src\render.h" />
+    <ClInclude Include="src\route_planner.h" />
+    <ClInclude Include="src\input_handler.h" />
   </ItemGroup>
 </Project>
