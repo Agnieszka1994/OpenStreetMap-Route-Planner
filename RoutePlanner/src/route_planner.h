@@ -8,7 +8,8 @@ class RoutePlanner
 
 public:
 
-	RoutePlanner(RouteModel& model, float start_x, float start_y, float end_x, float end_y);
+	RoutePlanner(RouteModel& model, float 
+		, float start_y, float end_x, float end_y);
 	float get_distance() const { return distance_; }
 	void a_star_search();
 

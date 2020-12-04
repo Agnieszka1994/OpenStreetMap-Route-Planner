@@ -1,7 +1,8 @@
 #include "route_planner.h"
 #include <algorithm>
 
-RoutePlanner::RoutePlanner(RouteModel& model, float start_x, float start_y, float end_x, float end_y) : m_model_(model)
+RoutePlanner::RoutePlanner(RouteModel& model, float start_x
+	, float start_y, float end_x, float end_y) : m_model_(model)
 {
 	/* Scale values to be between 0 and 1*/
 	start_x *= 0.01;
