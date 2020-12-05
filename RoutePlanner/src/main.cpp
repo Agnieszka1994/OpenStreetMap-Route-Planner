@@ -14,6 +14,7 @@
 #include "input_handler.h"
 
 using namespace std::experimental;
+using namespace route_planner;
 
 /**
  * Read an OSM map from file, returns nullopt for error
@@ -45,7 +46,7 @@ static std::optional<std::vector<std::byte>> ReadFile(const std::string& path)
 
 int main(int argc, const char** argv)
 {
-	std::string osm_data_file = "";
+	std::string osm_data_file = "Warsaw_Praga.osm";
 
 	/* Parse command line arguments */
 	if (argc > 1)

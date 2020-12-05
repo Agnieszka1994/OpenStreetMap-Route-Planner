@@ -7,6 +7,7 @@
 #include "../RoutePlanner/src/route_model.cpp"
 #include "../RoutePlanner/src/route_planner.cpp"
 
+using namespace route_planner;
 
 static std::optional<std::vector<std::byte>> ReadFile(const std::string& path)
 {
@@ -40,7 +41,7 @@ std::vector<std::byte> ReadOSMData(const std::string& path) {
 
 class RouteModelTest : public ::testing::Test {
 protected:
-    std::string osm_data_file = "../map.osm";
+    std::string osm_data_file = "map.osm";
     std::vector<std::byte> osm_data = ReadOSMData(osm_data_file);
     RouteModel model{ osm_data };
 };
@@ -120,7 +121,7 @@ TEST_F(RouteModelTest, FindClosestNode) {
 //   Beginning RouteModel Tests.
 class RoutePlannerTest : public ::testing::Test {
 protected:
-    std::string osm_data_file = "../map.osm";
+    std::string osm_data_file = "map.osm";
     std::vector<std::byte> osm_data = ReadOSMData(osm_data_file);
     RouteModel model{ osm_data };
     RoutePlanner route_planner{ model, 10, 10, 90, 90 };
