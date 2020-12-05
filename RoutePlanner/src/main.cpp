@@ -46,7 +46,7 @@ static std::optional<std::vector<std::byte>> ReadFile(const std::string& path)
 
 int main(int argc, const char** argv)
 {
-	std::string osm_data_file = "Warsaw_Praga.osm";
+	std::string osm_data_file = "map.osm";
 
 	/* Parse command line arguments */
 	if (argc > 1)
