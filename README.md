@@ -11,7 +11,7 @@ renders the road from the `start` point to the `end` on the map. The map in `.os
 
 [Download maps here.](https://www.openstreetmap.org/) 
 
-## Sample Usage
+## Sample Usage 1 - Warsaw - Old Town
 
 ```
 Usage: [executable] [-f filename.osm]
@@ -27,6 +27,8 @@ Program output:
 Distance: 1190.83 meters.
 ```
 [![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/old_town.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/)
+
+## Sample Usage 2 - Warsaw - Praga District
 ```
 Usage: [executable] [-f filename.osm]
 Reading OpenStreetMap data from the following file: Warsaw_Praga.osm
@@ -40,4 +42,3 @@ Program output:
 Distance: 2002.04 meters.
 ```
 [![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/Warsaw_Praga.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/)
-//warsaw praga image
