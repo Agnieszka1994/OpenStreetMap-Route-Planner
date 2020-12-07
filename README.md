@@ -26,7 +26,7 @@ Program output:
 ```
 Distance: 1190.83 meters.
 ```
-[![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/old_town.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/)
+[![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/RoutePlanner/images/old_town.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/RoutePlanner/images/)
 
 ## Sample Usage 2 - Warsaw - Praga District
 ```
@@ -41,4 +41,4 @@ Program output:
 ```
 Distance: 2002.04 meters.
 ```
-[![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/Warsaw_Praga.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/dev/RoutePlanner/images/)
+[![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/RoutePlanner/images/Warsaw_Praga.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/RoutePlanner/images/)
