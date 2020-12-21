@@ -61,3 +61,15 @@ Program output:
 Distance: 2002.04 meters.
 ```
 [![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/images/Warsaw_Praga.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/images/)
+
+## Code overview
+- Main creates a `RoutModel` object with the data
+- The `RoutModel` class is a data structure that holds all of the OpenStreetMap data in a convinient format and provide some methods for using the data
+- The `RoutModel` class has a subclass called `Node`, that represents a single point on the map data.
+- The `RoutModel` provides the method `find_closest_node`, that finds the closest node in the store data to the coordinates provided by the user.
+- After Main has created a route model, it will create a `RoutePlanner` object. The `RoutePlanner` class provides all of the methods needed to conduct the `A* Search`.
+- The `RoutePlanner` contains the `a_star_search` method, which is called by Main. 
+
+### OpenStreetMap Route Planner Code Structure
+
+[![img](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/images/code.png)](https://github.com/Agnieszka1994/OpenStreetMap-Route-Planner/blob/main/images/)
